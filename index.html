@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang='pt-br'>
 
+<!-- O que colocar
+    Trocar a fonte pra Roboto
+    Procurar na aula do hugo como mudar font por link
+    colocar a mesma cor de li nos links
+    https://coolors.co/001219-005f73-0a9396-94d2bd-e9d8a6-ee9b00-ca6702-bb3e03-ae2012-9b2226
+    descobrir ko da foto -->
+
     <head>
         <meta charset="UTF-8">
         <title>Portfolio</title>
@@ -20,6 +27,12 @@
                 color: #EE9B00;
             }
 
+            h1{
+                color: #001F29;
+                font-family: 'Roboto';
+            }
+            /* Procurar na aula do hugo como mudar font por link */
+
             h2{
                 color: #CA6702;
             }
@@ -28,7 +41,7 @@
                 color: #BB3E03;
             }
 
-            li{
+            .liststyle{
                 color: #E9D8A6;
             }
             /* colocar a mesma cor de li nos links */
@@ -38,10 +51,10 @@
 
     <body>
         <h1>
-            Thales Lima - Meu Portfólio
+            Thales Lima - Portfólio
         </h1>
         <br>
-        <img src='../../../../../Imagens/Me/selfie 1.jpeg' alt="foto do autor" width="150">
+        <img src="../../selfie 1.jpeg" alt="foto do autor" width="150">
         <br>
         <p id="nome">   
             Thales Barretto de Pinho Lima
@@ -70,7 +83,7 @@
         <h3>
             Soft Skills
         </h3>
-        <ul>
+        <ul class='liststyle'>
             <li><em>Analítico</em></li>
             <li><em>Empático</em></li>
             <li>Paciente</li>
@@ -81,7 +94,7 @@
         <h3>
             Hard Skills
         </h3>
-        <ul>
+        <ul class='liststyle'>
             <li>Unix/Bash</li>
             <li>Git</li>
             <li>HTML5</li>
@@ -101,18 +114,18 @@
         <h2>
             Lista de ferramentas úteis para web dev
         </h2>
-        <ul>
+        <ul class='liststyle'>
             <li><a href='https://developer.mozilla.org/pt-BR/' target='_blank'>Developer.mozilla</a></li>
             <li><a href='https://git-scm.com/doc' target='_blank'>Documentação Git</a></li>
             <li><a href='https://coolors.co/' target=''>Paleta de cores</a></li>
             <!-- https://coolors.co/001219-005f73-0a9396-94d2bd-e9d8a6-ee9b00-ca6702-bb3e03-ae2012-9b2226 -->
-            <li><a href='' target=''></a></li>
+            <li><a href='https://fonts.google.com/' target='_blank'>Google Fonts</a></li>
             <li><a href='' target=''></a></li>
         </ul>
         <h2>
             Perfis:
         </h2>
-        <ul>
+        <ul class='liststyle'>
             <li><a></a></li>
             <li><a href>https://github.com/thales-bpl/</a></li>
         </ul>
